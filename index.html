@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mental Health in California</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="styles.css" rel="stylesheet" />
+		<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("li").click(function() {					
+					$("li").removeClass("active");
+					$(this).addClass("active");
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="feature">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<ul class="nav">
+						<li class="active"><a href="viz_home.html" target="viz_iframe">Overview</a></li>
+						<li><a href="viz_smi.html" target="viz_iframe">Mental Illness</a></li>
+						<li><a href="viz_psych.html" target="viz_iframe">Psychiatrists</a></li>
+						<li><a href="viz_graphs.html" target="viz_iframe">Compare Graphs</a></li>
+						<li><a href="viz_maps.html" target="viz_iframe">Compare Maps</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<iframe name="viz_iframe" 
+					src="viz_home.html" 
+					width="972" 
+					height="574" 
+					scrolling="no" 
+					frameborder="0" 
+					seamless>&nbsp;
+			</iframe>
+		</div>
+	</body>
+</html>

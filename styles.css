@@ -1,0 +1,48 @@
+body {
+	overflow: hidden;
+	font-size: 13px;
+}
+
+div {
+	overflow:hidden;
+}
+
+li {
+	font-size:13px;
+}
+
+#headline {
+	line-height:28px;
+	margin-top:0px;
+}
+
+#feature {
+	width:972px;
+	height:616px;
+	margin:auto;
+}
+
+#viz {
+	width:972px;
+	height:574px;
+	background-color:white;
+}
+
+.mask {
+	position:absolute;
+	z-index: 100;
+	/*
+	background-color:red; 
+	opacity: 0.5;
+	*/
+}
+
+.navbar {
+	margin-bottom:0px;
+}
+
+.navbar .brand {
+	width: 230px;
+	padding:10px;
+	font-size:18px;
+}
